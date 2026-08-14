@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="screen1" class="screen active">
+      <h2>I have a little surprise 🎁</h2>
+
+      <div class="gift">🎁</div>
+
+      <p>Do you want to open it?</p>
+
+      <div class="buttons">
+        <button class="yes-btn" onclick="showScreen(2)">YES ❤️</button>
+        <button class="no-btn" onclick="moveButton(this)">NO</button>
+      </div>
+    </div>
+
+
+    <div id="screen2" class="screen">
+      <h2>Do you love me? 🥺❤️</h2>
+
+      <img
+        class="cat"
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDl5bjJtb2Z1dXVrNmZyNHRjd25nYmthZmp0MHRqaWVmaXY1aTZ3NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/giphy.gif"
+        alt="Cute Cat">
+
+      <div class="buttons">
+        <button class="yes-btn" onclick="showScreen(3)">YES 😍</button>
+        <button class="no-btn" onclick="moveButton(this)">NO 😭</button>
+      </div>
+    </div>
+
+
+    <div id="screen3" class="screen">
+      <h2>Really? You love me? 🥹</h2>
+
+      <img
+        class="cat"
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGdwOHloZWk5M3Rlajh6MDk3dm54eDIzdmx3eHY5MjlvNWZpbWJnZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ICOgUNjpvO0PC/giphy.gif"
+        alt="Cute Cat">
+
+      <div class="buttons">
+        <button class="yes-btn" onclick="showScreen(4)">
+          OF COURSE ❤️
+        </button>
+
+        <button class="no-btn" onclick="moveButton(this)">
+          NO
+        </button>
+      </div>
+    </div>
+
+
+    <div id="screen4" class="screen">
+
+      <h2>One last question 👀</h2>
+
+      <p>
+        Are you ready for your birthday surprise?
+      </p>
+
+      <div class="gift">💝</div>
+
+      <button class="yes-btn big-btn" onclick="showScreen(5)">
+        OPEN SURPRISE 🎉
+      </button>
+
+    </div>
+
+
+    <div id="screen5" class="screen final-screen">
+
+      <h1>🎂 HAPPY BIRTHDAY ❤️ 🎂</h1>
+
+      <p class="birthday-message">
+        Happy Birthday to the most special person in my life. ❤️
+        <br><br>
+        I hope your day is filled with happiness, love,
+        laughter and beautiful memories.
+        <br><br>
+        May every wish you make come true.
+        Keep smiling always. 🥰
+      </p>
+
+      <div class="photo-grid">
+
+        <img src="https://picsum.photos/300/300?random=1">
+        <img src="https://picsum.photos/300/300?random=2">
+        <img src="https://picsum.photos/300/300?random=3">
+        <img src="https://picsum.photos/300/300?random=4">
+
+      </div>
+
+      <h2 class="love-text">
+        Have the best birthday ever! 🎉❤️
+      </h2>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
